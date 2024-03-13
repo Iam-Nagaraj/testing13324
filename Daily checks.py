@@ -3,6 +3,7 @@ import os
 import subprocess
 import time
 import webbrowser
+import code
 def open_url(url):
     try:
         webbrowser.open(url)
